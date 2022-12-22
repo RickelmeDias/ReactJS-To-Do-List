@@ -1,0 +1,68 @@
+.container {
+    width: 46rem;
+}
+
+.headerListTask {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: 700;    
+    font-size: .875rem;
+}
+
+.headerListTask div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueStrong {
+    color: var(--blue-300);
+}
+
+.purpleStrong {
+    color: var(--purple-300);
+}
+
+.counter {
+    padding: .125rem .5rem;
+    border-radius: .5rem;
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    height: 1.1875rem;
+}
+
+strong + .counter {
+    margin-left: .5rem;
+}
+
+.headerListTask {
+    margin-bottom: 1.5rem;
+}
+
+.containerListTask {
+    min-height: 15.25rem;
+    border-radius: .5rem;
+    border-top: 1px var(--gray-300) solid;
+}
+
+.containerListTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.notExistsTasks {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
